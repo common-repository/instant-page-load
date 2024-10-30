@@ -1,0 +1,18 @@
+{
+    "name": "wpplugines/WP_Instant_Page_Load",
+    "authors": [
+        {
+            "name": "WPPlugines",
+            "email": "hello@wpplugines.io"
+        }
+    ],
+    "require": {
+        "codexpert/product": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "wpplugines\\WP_Instant_Page_Load\\" : "src/"
+        },
+        "files": [ "functions/helpers.php", "functions/options.php" ]
+    }
+}
